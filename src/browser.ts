@@ -41,6 +41,7 @@ export const getWeChatVersion = (): string => {
 export const isAndroid = /android/i.test(ua);
 
 export const isIos = /iphone|ipad|ipod/i.test(ua);
+export const isMac = /macintosh/i.test(ua);
 
 export const isWechat = /micromessenger\/([\d.]+)/i.test(ua);
 
